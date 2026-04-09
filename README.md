@@ -1,6 +1,6 @@
 # 🛒 Online Retail Sales Dashboard — Power BI
 
-# Author : Panashe Sofa
+Author : Blessed Mavhemwa
 
 ## Project Overview
 
@@ -81,19 +81,6 @@ The dashboard is built on a single **Executive Summary** page with the following
 - **Country** slicer — filter all visuals by country
 - **Year** slicer — filter all visuals by year
 
-### DAX Measures Created
-
-```dax
-Total Revenue = SUM('cleaned_online_retail'[Revenue])
-Total Quantity = SUM('cleaned_online_retail'[Quantity])
-Total Orders = DISTINCTCOUNT('cleaned_online_retail'[InvoiceNo])
-Total Customers = DISTINCTCOUNT('cleaned_online_retail'[CustomerID])
-Average Order Value = DIVIDE([Total Revenue], [Total Orders])
-Average Unit Price = AVERAGE('cleaned_online_retail'[UnitPrice])
-Revenue per Customer = DIVIDE([Total Revenue], [Total Customers])
-Orders per Customer = DIVIDE([Total Orders], [Total Customers])
-```
-
 ---
 
 ## 💡 Key Insights
@@ -109,3 +96,7 @@ Orders per Customer = DIVIDE([Total Orders], [Total Customers])
 5. **International markets are underutilized** — Countries like Netherlands, EIRE, Germany, and France show promising revenue figures but remain significantly behind the UK, indicating growth opportunities.
 
 6. **Consistent order volume** — 19K total orders across the period suggests a stable and loyal customer base with regular purchasing patterns.
+
+
+## 📸 Dashboard Review
+<img width="993" height="578" alt="Executive Summary" src="https://github.com/user-attachments/assets/256fb4a6-4f1c-4b65-913e-701561e9849c" />
