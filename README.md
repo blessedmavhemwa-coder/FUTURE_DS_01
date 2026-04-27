@@ -1,6 +1,6 @@
-# 🛒 Online Retail Sales Dashboard — Power BI
+# 🛒 Online Retail Sales Analysis
 
-Author : Blessed Mavhemwa
+Author : Blessed Mavhemwa       CIN: FIT/APR26/DS16158
 
 ## Project Overview
 
